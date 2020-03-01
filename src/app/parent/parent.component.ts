@@ -6,7 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./parent.component.scss']
 })
 export class ParentComponent implements OnInit {
+  name: string = "Hello World!";
+  MobileNumber: number = 9566042245;
 
+  country: string = "India";
   constructor() { }
 
   ngOnInit() {
